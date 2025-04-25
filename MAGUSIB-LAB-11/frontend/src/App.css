@@ -1,0 +1,151 @@
+/* App.css for Student Recording System */
+
+/* Center alignment for the entire page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(bg.jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(199, 198, 216, 0.075);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Heading styles */
+h1 {
+  color: #3a86ff; /* Blue text color for main heading */
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+h2 {
+  color: #050505;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  font-style: bold;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-color: #000000;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3a86ff;
+}
+
+button {
+  background-color: #3a86ff;
+  color: white;
+  border: none;
+  padding: 12px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Student list container */
+.container > div:last-child {
+  background-color: #2112a33d;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Student list styling */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid rgba(172, 12, 12, 0.3);
+  gap: 20px;
+  background-color: rgba(61, 15, 146, 0.397);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+li img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #000000;
+}
+
+li strong {
+  font-size: 18px;
+}
+
+li button {
+  margin-left: auto;
+  background-color: #ee003b;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+li button:hover {
+  background-color: rgba(231, 9, 65, 0.8);
+}
+
+/* Message styling */
+p {
+  color: #3a86ff;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 15px 0;
+}
+
+/* File input styling */
+input[type="file"] {
+  padding: 8px;
+  background-color: #f8f9fa;
+}

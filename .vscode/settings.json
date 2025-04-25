@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "MAGUSIB-LAB-12"
+    ],
+    "java.project.referencedLibraries": [
+        "MAGUSIB-LAB-12\\LIB\\mysql-connector-j-9.3.0\\mysql-connector-j-9.3.0.jar"
+    ]
+}
